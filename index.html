@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnNest</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Lato:wght@400;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,300&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- navbar -->
+    <header class="navbar">
+      <div class="header-text">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+        <h2>LearnNest</h2>
+    </div>
+        <nav >
+            <ul class="navlinks">
+                <li><a href="#home" >Home</a></li>
+                <li id="Categories" class="categories">Categories
+                    <ul class="course-list" id="courseList">
+                        <!-- Courses will be dynamically added here -->
+                    </ul></li>
+                <li><a href="#Courses">Courses</a></li>
+                <li><a href="#About" >About Us</a></li>
+                <li><a href="#Contact" >Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="icons">
+            <div class="account">
+                <button class="head-btn" id="Login">Login</button>
+                <button class="head-btn" id="Signup">Signup</button>
+            </div>
+            <a href="#"><i class='bx bx-user'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+        </div>
+    </header>
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-text">
+        <h3>Best Online Learning Platform</h3>
+        <h5>Learn In demand skills from the comfort of your home</h5>
+      <button  class="home-btn">Start Learning</button></div>
+      </div>
+        <div class="home-img">
+            <img src="images/bg-img.jpg" alt="">
+        </div>
+    </section>
+    <!-- container -->
+     <div class="cont-heading"><h2>Explore our Popular Courses</h2></div>
+     <div class="cont-box" id="Courses">
+     <div class="container">
+        <div class="cont-img">
+            <img src="images/pythontut.jpeg" alt="">
+        </div>
+        <div class="cont-text">
+            <h4>The Complete Python Tutorial</h4>
+            <p>By Dr. Ashutosh kapoor</p>
+            <div class="star">
+                <h4>4.6</h4>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star-half' ></i></a>
+               </div>
+            <span>₹4000</span>
+        </div>
+     </div>
+     <div class="container">
+        <div class="cont-img">
+            <img src="images/web-dev.png" alt="">
+        </div>
+        <div class="cont-text">
+            <h4>Learn HTML CSS and Javascript from zero to hero</h4>
+            <p>By William James</p>
+            <div class="star">
+            <h4>4.7</h4>
+            <a href="#"><i class='bx bxs-star'></i></a>
+            <a href="#"><i class='bx bxs-star'></i></a>
+            <a href="#"><i class='bx bxs-star'></i></a>
+            <a href="#"><i class='bx bxs-star'></i></a>
+            <a href="#"><i class='bx bxs-star-half' ></i></a>
+           </div>
+            <span>₹4500</span>
+        </div>
+     </div>
+     <div class="container">
+        <div class="cont-img">
+            <img src="images/android.png" alt="">
+        </div>
+        <div class="cont-text">
+            <h4>Android App Development Tutorial</h4>
+            <p>By Vikas Dixit</p>
+            <div class="star">
+                <h4>4.5</h4>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star-half' ></i></a>
+               </div>
+            <span>₹5000</span>
+        </div>
+     </div>
+     <div class="container">
+        <div class="cont-img">
+            <img src="images/mern-tut.jpeg" alt="">
+        </div>
+        <div class="cont-text">
+            <h4>Complete MERN stack Tutorial </h4>
+            <p>By Emily Jones</p>
+            <div class="star">
+                <h4>4.5</h4>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star-half' ></i></a>
+               </div>
+            <span>₹6000</span>
+        </div>
+     </div>
+    </div>
+   <div class="buybtn">
+    <button>Buy Now</button>
+   </div>
+
+   <section class="testimonials">
+    
+    
+    <h2>Testimonials</h2>
+    <div class="test-btn">
+    <button class="forward-btn"><i class='bx bx-left-arrow-alt' ></i></button>
+    <button class="backward-btn"><i class='bx bx-right-arrow-alt' ></i></button>
+    </div>
+    <div class="test-cont">
+    <div class="testimonial-card">
+        <div class="img-txt">
+        <img src="images/person.jpeg" alt="person">
+        <div class="person-name">
+        <h3>Person Name</h3>
+        <p>Description</p>
+        <div class="test-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt 
+        voluptas deserunt veniam dolor, facere dignissimos eaque ut reprehenderit qui. Fugiat corrupti ipsa quia vero minus ex earum quos dignissimos iste dolorem. Nihil aperiam delectus blanditiis, molestias, repudiandae provident quaerat voluptates consectetur quos 
+        incidunt dolores, aliquam quasi reprehenderit fugiat natus veritatis?</div>
+       </div>     
+       </div>
+    </div>
+    <div class="testimonial-card">
+        <div class="img-txt">
+        <img src="images/person.jpeg" alt="person">
+        <div class="person-name">
+        <h3>Person Name</h3>
+        <p>Description</p>
+        <div class="test-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt 
+        voluptas deserunt veniam dolor, facere dignissimos eaque ut reprehenderit qui. Fugiat corrupti ipsa quia vero minus ex earum quos dignissimos iste dolorem. Nihil aperiam delectus blanditiis, molestias, repudiandae provident quaerat voluptates consectetur quos 
+        incidunt dolores, aliquam quasi reprehenderit fugiat natus veritatis?</div>
+       </div>     
+       </div>
+
+    </div>
+    <div class="testimonial-card">
+        <div class="img-txt">
+        <img src="images/person.jpeg" alt="person">
+        <div class="person-name">
+        <h3>Person Name</h3>
+        <p>Description</p>
+        <div class="test-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt 
+        voluptas deserunt veniam dolor, facere dignissimos eaque ut reprehenderit qui. Fugiat corrupti ipsa quia vero minus ex earum quos dignissimos iste dolorem. Nihil aperiam delectus blanditiis, molestias, repudiandae provident quaerat voluptates consectetur quos 
+        incidunt dolores, aliquam quasi reprehenderit fugiat natus veritatis?</div>
+       </div>     
+       </div>
+       </div>
+   </div>
+
+   </section>
+
+
+
+   <div class="bottomtext">
+    <p>Trusted By</p>
+    <h3>500+ Leading Universities And Companies</h3>
+   </div>
+   <section class="about" id="About">
+   <div class="about-img">
+        <img src="images/skillsimg.jpeg" alt="about-img">
+    </div>
+    <div class="about-text">
+        <h2>Want to share your knowledge?Join us as a Mentor</h2>
+    <p>We provide quality Education.Gain practical knowledge through various projects.
+    Quality Lectures designed by professionals and experts with a teaching experience of more than 5 years all this at an affordable price .
+    So take first step towards your carrer with LearnNest.
+    </p>
+   </div>
+   </section>
+   
+  <section class="contact" id="Contact">
+    <div class="contact-list">
+    <img src="images/logo.png" alt="logo">
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">Twitter</a> 
+   </div> 
+   <div class="contact-list">
+    <a href="#">Home</a>
+    <a href="#">Categories</a>
+    <a href="#">Courses</a> 
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+   </div> 
+   <div class="contact-list">
+    <a href="#">profile</a>
+    <a href="#">Login</a>
+    <a href="#">Register</a>
+    <a href="#">Instructor</a> 
+    <a href="#">Dashboard</a>
+   </div> 
+   <div class="contact-list">
+    <a href="#">San Francisco , <br> California,CA 94108</a>
+    <a href="#">dreamIms@example.com</a>
+    <a href="#">0165423741</a>
+   </div>
+  </section>
+  <div class="last-txt"><p>©LearnNest.All rights reserved.</p></div>
+   <script src="script.js"></script>
+</body>
+</html>

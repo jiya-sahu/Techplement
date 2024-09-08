@@ -1,0 +1,405 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: rgb(243, 243, 227);
+  
+}
+.navbar{
+    z-index: 500;
+    padding:1.4rem;
+    min-width: 880px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 15px gray;
+    background: linear-gradient(90deg, rgb(146, 66, 199) 0%, rgb(238, 85, 85) 50%);    
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;
+}
+.head-btn{
+    padding: 8px;
+    border-radius: 7px;
+    background-color: rgb(55, 55, 247);
+    color: white;
+    border: none;
+    font-weight: 400;
+    margin: 5px;
+}
+.head-btn:hover{
+    transition: all ease-in;
+    transform: scale(1.2);
+}
+.logo img{
+    height: auto;
+    width: 35px;
+}
+.header-text{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.navlinks a{
+    color: rgb(27, 26, 26);
+    font-weight: 600;
+}
+.navlinks a:hover{
+    color: white;
+    font-weight: 500;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.icons a i{
+    color: rgb(48, 47, 47);
+    margin: 5px;
+}
+.icons a i:hover{
+    color: white;
+    transition: all ease-in-out;
+    transform: scale(1.3);
+}
+
+.home{
+    position: relative;
+    height: 70vh; 
+    width: 100%;
+    display: flex;
+    padding: 43px 20px ;
+    justify-content: space-evenly;
+}
+.home .home-img img{
+    width: 400px;
+    height :300px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+.home-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.home-btn{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(237, 96, 44);
+    font-weight: 400;
+    margin-top: 20px;
+}
+.home-text h3{
+    font-size: 3rem;
+}
+.home-text h5{
+    margin: 10px;
+    font-size: 1rem; ;
+    color: rgb(209, 54, 54);
+}
+.cont-heading{
+    border: 0.5px solid rgb(156, 151, 151);
+    padding: 10px ;
+    margin-top: 20px;
+     margin: 10px;
+     border-radius: 20px;
+     box-shadow: 1px 1px 4px gray;
+}
+.cont-heading h2{
+    font-weight: bold;
+padding-left: 5rem;}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    width: 300px;
+    border: 0.3px solid rgb(157, 155, 155);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.container img{
+    width:300px;
+    padding:3px ;
+    border: 0.2px solid rgb(169, 162, 162);
+    border-radius: 15px;
+    
+}
+.cont-text p{
+    color: rgb(55, 53, 53);
+    font-family:sans-serif;
+    font-weight: 500;
+}
+
+
+.cont-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.container .cont-text{
+    margin-top: 10px;
+    padding: 7px 13px;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+.cont-text span{
+    color: rgb(35, 35, 35);
+    font-weight: bold;
+}
+.cont-text h4{
+    font-family:sans-serif ;
+}
+.star{
+    display: flex;
+    gap: 3px;
+}
+.star i{
+    color: rgb(220, 161, 10);
+}
+.buybtn{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buybtn button{
+    padding: 13px;
+    background-color: rgb(237, 96, 44);
+    color: aliceblue;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+}
+.bottomtext{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 20px;
+}
+.bottomtext p{
+    color: rgb(237, 96, 44);
+}
+.about{
+    margin: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+   gap: 40px;
+  
+}
+.about img{
+    width: 400px;
+    height: 260px;
+    border-radius:10px ; 
+}
+.about-text{
+    width: 500px;
+    display: flex;
+    flex-direction: coloumn;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.about-text h2{
+    margin-top: 50px;
+}
+.about p{
+    font-family:sans-serif;
+    font-weight: 300;
+    line-height: 2rem;
+}
+.contact{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    gap:2rem;
+    box-shadow: 1px 1px 20px grey;
+   
+}
+.contact img{
+    width: 100px;
+    height: 80px;
+}
+.contact-list{
+    padding: 5px 13px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-list a{
+    font-family: sans-serif;
+    font-weight: 300;
+    color: rgb(73, 73, 73);
+}
+.contact-list a:hover{
+    color: red;
+}
+.last-txt p{
+    text-align: center;
+    padding: 18px;
+    background-color:white ;
+}
+.testimonials{
+    margin: 60px;
+    height: 400px;
+}
+.testimonial-card{
+    margin-top: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(238, 119, 55);
+    border-radius: 20px;
+
+}
+.testimonial-card .img-txt img{
+    width: 100px;
+    height: 60px;
+    border-radius: 50%; 
+}
+.testimonial-card .img-txt{
+    display: flex;
+    gap: 4px;
+}
+.person-name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.person-name h3{
+    color:rgb(27, 26, 26);
+}
+.person-name p{
+    color: rgb(39, 38, 38);
+}
+
+.test-btn {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.test-btn button{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(238, 119, 55);
+    color: aliceblue;
+    border: none;
+}
+
+.testimonials h2{
+    text-align: center;
+}
+.testimonial-card .test-desc{
+    color: rgb(24, 23, 23);
+}
+.test-cont{
+    display: flex;
+    justify-content: space-evenly;
+} 
+/* for categories section */
+.course-list {
+    display: none; 
+    position: absolute;
+    top: 30px;
+    left: 40%;
+    background-color: white;
+    list-style: none;
+    padding: 0;
+    border: 1px solid #ddd;
+    width: 150px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.course-list li {
+    padding: 5px;
+    color: rgb(21, 21, 241);
+    font-weight: 300;
+}
+.categories{
+    color: rgb(27, 26, 26);
+    font-weight: 600;
+}
+.categories:hover{
+    color: white;
+    font-weight: 500;
+}
+.categories:hover .course-list {
+    display: block; 
+}
+@media (max-width:600px){
+    
+    .header{
+        width: 60%;
+    }
+   .home{
+    height: 600px;
+       display: flex;
+       flex-direction: column;
+        margin-left: 80px;
+    }
+    .home .home-img img{
+        width: 300px;
+        height: 200px;
+       
+    }
+    .cont-heading{
+        padding: 10px ;
+        margin-top: 40px;
+        margin-left: 90px;
+       
+    }
+    .about{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        margin: 100px;
+    }
+    .about-text{
+        width: 400px;
+    }
+    .contact{
+        margin-left: 80px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+        width: 85%;
+    }
+    .contact-list{
+        width: 200px;
+    }
+    .last-txt p{
+        text-align: center;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    
+
+}
