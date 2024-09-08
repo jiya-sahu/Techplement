@@ -126,7 +126,8 @@ body{
 }
 .cont-heading h2{
     font-weight: bold;
-padding-left: 5rem;}
+   padding-left: 5rem;
+}
 
 .container{
     display: flex;
@@ -353,11 +354,13 @@ padding-left: 5rem;}
 .categories:hover .course-list {
     display: block; 
 }
-@media (max-width:600px){
-    
-    .header{
+@media (max-width:900px){
+    .navbar{
         width: 60%;
+        padding: 10px;
+
     }
+    
    .home{
     height: 600px;
        display: flex;
@@ -379,7 +382,7 @@ padding-left: 5rem;}
         height: 600px;
         display: flex;
         flex-direction: column;
-        margin: 100px;
+        margin: 80px;
     }
     .about-text{
         width: 400px;
@@ -389,8 +392,8 @@ padding-left: 5rem;}
         margin-bottom: 20px;
         flex-direction: column;
         align-items: center;
-        height: max-content;
-        width: 85%;
+        height: fit-content;
+        width: 75%;
     }
     .contact-list{
         width: 200px;
@@ -400,6 +403,29 @@ padding-left: 5rem;}
         font-weight: 500;
         font-size: 1rem;
     }
+    .testimonials{
+        margin: 60px;
+        height: 1000px;
+       
+    }
+    .testimonial-card{
+        margin-top: 30px;
+        padding: 20px;
+        width: 400px;
+        height: fit-content;
+    }
+    .bottomtext{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: 60px;
+    }
+    .test-cont{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    } 
+
     
 
 }
